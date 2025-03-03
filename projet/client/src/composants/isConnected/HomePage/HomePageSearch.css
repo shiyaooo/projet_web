@@ -1,0 +1,58 @@
+#SearchIconeHP{
+    height: 2em;
+    cursor: pointer;
+    padding-top: 0.4em;
+}
+
+#SearchIconeHP:hover{
+    transform: scale(1.2);
+}
+
+#ButtonSearchHP{
+    background-color: transparent;
+    border: transparent;
+}
+
+.HomePageSearchRender{
+    width: 54em;
+    border-radius: 10px;
+    background-color: rgba(141, 230, 200, 0.781);
+}
+
+.barresearchHP{
+    display: grid;
+    grid-template-columns: 44em 6em 3em;
+}
+
+#textareaSearchHP{
+    padding-top: 0.4em;
+    border: transparent;
+    background-color: transparent;
+    margin-left: 1em;
+    font-size: larger;
+}
+
+#textareaSearchHP::placeholder{
+    color:rgb(114, 107, 104);
+}
+
+#filtreHP{
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: 1.8px double black;
+    border-right: 1.8px double black;
+    height: 2.5em;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.optionsHP{
+    background-color:rgb(127, 211, 183);
+    cursor: pointer;
+}
+
+.trouver_hm{
+    margin-left:7em;
+    width: 39em;
+}

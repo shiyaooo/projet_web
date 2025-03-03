@@ -1,0 +1,115 @@
+.sign-up_SUF{
+    padding-left:3.5em;
+}
+
+.nompre_SUF{
+    display:grid;
+    grid-template-columns: 170px 174px;
+    margin-left: 9px;
+}
+
+#nom_SUF{
+    margin-right: 4px;
+}
+
+#id_SUF, #mdp2_SUF{
+    margin-top:14px;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+
+/* .infoMdp{
+    display:grid;
+    grid-template-columns: 205px 30px 30px;
+} */
+
+
+
+.infoMdp,confir_info {
+    display: grid;
+    grid-template-columns: 225px 30px 30px;
+    /* align-items: center;   */
+    /* justify-content: flex-start;   */
+    gap: 1px;  
+}
+
+
+.password2-input { 
+    padding-right: 50px;  
+}
+
+.password2-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: -30px;  /* 将按钮位置调整到输入框的右侧 */
+    color: #666768;
+    /* font-size: 20px; */
+  }
+
+/* 显示/隐藏密码按钮样式 */
+.password-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: -60px;  /* 将按钮位置调整到输入框的右侧 */
+    color: #666768;
+    /* font-size: 20px; */
+  }
+
+
+  /* 鼠标悬停时改变图标颜色 */
+.password-toggle-button:hover i , .password2-toggle-button:hover i{
+    color: #262727;
+}
+
+#bouton_SUF{
+    height: 2.7em;
+    margin-top:2em;
+    margin-left: 7em;
+}
+
+.goBack{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .popup{    
+    font-size: smaller;
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+} */
+
+/* 弹窗（Modal）样式 */
+.popup {
+    font-size: smaller;
+    color: RED;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-wrap: break-word;
+}
+
+.popup li {
+    margin-bottom: 5px;  /* 每个列表项的下边距 */
+}
+
+
+
+#nom_SUF, #prenom_SUF,#id_SUF,#mdp_SUF,#mdp2_SUF{
+    background-color:rgba(243, 212, 183, 0.733);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.query{
+    cursor:pointer;
+    background: #a1a0a0c9;
+    color: #fff;
+    border-radius:30%;
+    /* font-weight: 700; */
+    margin-left: -30px;  /* 将按钮位置调整到输入框的右侧 */
+    margin-right: 30px;  /* 将按钮位置调整到输入框的右侧 */
+
+}

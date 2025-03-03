@@ -1,0 +1,81 @@
+.messagesearch{
+    flex: 1;
+    background-color:  rgba(174, 172, 172, 0.822);
+}
+
+#searchmsg{
+    font-size: 1rem; 
+    border:none;
+    width: 16em;
+    border-bottom: 2px solid antiquewhite;
+    display: flex;
+    background-color: transparent;
+    padding: 8px;
+}
+
+.msg_search{
+    font-size: 30px;
+    font-family: cursive;
+    color: #716c8a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ajout{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+#btn_img{
+    background-color: transparent;
+    border: none;
+}
+.msg_search{
+    
+    padding: 20px;
+    display: flex;
+    
+}
+
+.msg_trouve{
+    max-height: 70vh;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: transparent; /* or add it to the track */
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+  }
+
+/*::-webkit-scrollbar {
+    display: none;
+  }*/
+
+
+
+  .discussion{
+    flex:2
+}
+
+.no_Con{
+    background-color:rgba(226, 223, 223, 0.822);
+    height:calc(100% - 70px);
+    text-align: center;
+    padding: 200px;
+    color: rgb(95, 97, 98);
+}
+
+.noConversation{
+    font-size: 45px;
+    
+}

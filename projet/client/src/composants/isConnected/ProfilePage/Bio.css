@@ -1,0 +1,35 @@
+#bioTextArea{
+    background-color: transparent;
+    border: 4px solid rgb(238, 237, 237);
+    margin-top: 2em;
+    padding-left: 2px;
+    padding-top: 1em;
+    width: 22em;
+    height: 11em;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.down_bio{
+    display: grid;
+    grid-template-columns: 14em 7em;
+}
+
+#nb_caracteres{
+    margin-left:9em;
+    font-size: small;
+}
+
+#bioButton{
+    border-radius: 10px;
+    height: 3em;
+    background-color: rgb(190, 241, 241);
+    cursor: pointer;
+}
+
+#bioButton:hover{
+    transform: scale(1.05);
+    background-color: rgb(160, 233, 209);
+}

@@ -1,0 +1,12 @@
+.comment{
+    background-color: rgba(197, 250, 192, 0.589);
+    padding-top: 5px;
+    width: 34.5em;
+    border-radius: 5%;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5);
+}
+
+.inlinecomments{
+    height: 0.5em;
+    background-color: transparent;
+}

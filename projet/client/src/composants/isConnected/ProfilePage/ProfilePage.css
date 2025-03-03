@@ -1,0 +1,80 @@
+.render_ProfilePage{
+    background-color: rgba(191, 222, 252, 0.692);
+    border-radius: 30px;
+    width: 55em;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+.haut_PP{
+    display: grid;
+    grid-template-columns: 35% 20% 40%;
+}
+
+
+#nom_PP{
+    
+    padding-top: 1.5em;
+    padding-left: 5px;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#nbr_followers,#nbr_followings{
+    color:rgb(241, 235, 147);
+    text-shadow: 0 3px 4px rgba(0,0,0,0.5);
+    font-size: 1.1em;
+    padding-left:1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bas_PP{
+    margin-left: 4em;
+    margin-right: 4em;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top:2em;
+}
+
+.secondPage{
+    display: grid;
+    grid-template-columns: 100%;
+    border-color: gray;
+}
+
+#goBack{
+    height: 2.3em;
+    width:5em;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: rgb(221, 252, 177);
+}
+
+#goBack:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+}
+
+#showFriends, #showFollowers, #showFollowings{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    background-color: transparent;
+    height: 3em;
+    border-color: rgb(46, 69, 90);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#showFriends:hover, #showFollowers:hover, #showFollowings:hover{
+    background-color: rgba(147, 86, 153, 0.603);
+    color: white;
+    transform: scale(1.03);
+}
+
+#createdAt_PP{
+    margin-top:2em;
+    margin-left: 8em;
+    color: rgb(153, 85, 85);
+}

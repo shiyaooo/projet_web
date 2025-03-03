@@ -1,0 +1,55 @@
+.editphoto_render{
+    margin-left:25px;
+    padding-top:25px;
+    display: grid;
+    grid-template-columns: 10% 68% 5%;
+}
+
+#leftButton, #rightButton{
+    margin-top: 6em;
+    height: 4em;
+    width:3em;
+    background-color: transparent;
+    border: transparent;
+}
+
+#deletePic{
+    width: 6em;
+    margin-left:1em;
+    height: 3.3em;
+    border-radius: 20px;
+    background-color: rgb(182, 214, 179);
+    cursor:pointer;
+}
+
+#deletePic:hover{
+    background-color: rgb(203, 221, 193);
+    transform: scale(1.06);
+}
+
+#left, #right{
+    height: 3em;
+    cursor: pointer;
+}
+
+#left:hover, #right:hover{
+    transform: scale(1.1);
+    cursor:pointer
+}
+
+#addPicButton{
+    height: 5em;
+    width: 5em;
+    border-radius: 30%;
+    margin-top:130px;
+    background-color: rgb(191, 136, 243);
+}
+
+#addPicButton:hover{
+    transform: scale(1.2);
+    background-color: rgb(209, 189, 228);
+}
+.nopicsection{
+    display: grid;
+    grid-template-columns: 150px 10px;
+}

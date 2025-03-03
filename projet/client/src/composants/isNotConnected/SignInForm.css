@@ -1,0 +1,123 @@
+.rendu_SIF{
+    display:grid;
+    grid-template-columns: 480px 500px;
+    margin-left:3em;
+    background-blend-mode: lighten;
+}
+
+.in_SIF{
+    margin-bottom: 1em;
+    padding-top: 0em;
+}
+
+.look_SIF{
+    margin-left:10em;
+}
+
+#image_SIF{
+    position: relative;
+    top:12em;
+    /* margin-left: 9em; */
+    width: 38em;
+    filter: drop-shadow(30px 20px 2.5px #852541);
+}
+
+.form_SIF{
+    display:grid;
+    grid-template-columns: 124px 246px;
+}
+
+#nomApp_SIF{
+   width:200px;
+   height: auto;
+   transform: rotate(90deg); 
+}
+#logo_SIF{
+    border-radius:50%; /*arrondir image*/
+    border : 3px solid #000000;
+    width:80px;
+}
+
+.logodiv_SIF{
+    background-color:  rgb(247, 228, 61);
+    margin-left:10em;
+    padding-top: 8px;
+    padding-left:9.5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 94px;
+}
+
+.all_SIF{
+    display:grid;
+    border-radius: 12px ;
+    position:relative;
+    left: 200px;
+    top:6em;
+    width:408px;
+    padding-top: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.one_SIF{
+    border-radius: 12px ;
+    background-color: rgb(247, 228, 61);
+    padding-left: 20px;
+    padding-top:8px;
+    padding-bottom: 19px;
+}
+
+.two_SIF{
+    margin-top:36px;
+    display: grid;
+    grid-template-columns: 260px 100px;
+    border-radius: 12px ;
+    background-color: rgb(247, 228, 61);
+    padding-left: 20px;
+    height: 5em;
+
+}
+
+#id_SIF, #mdp_SIF{
+    background-color:rgba(243, 212, 183, 0.733);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#boutonbis_SIF{
+    height: 30px;
+    margin-top:27px;
+    margin-left:0px;
+}
+ 
+.B_SIF:hover{
+    background-color: rgb(247, 205, 166);
+    transform: scale(1.1);
+}
+
+
+
+.B_SIF{
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(243, 180, 103);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bouton_SIF{
+    margin-top: 2.5em;
+    position:relative;
+    left:10em;
+    
+}
+
+.sign-in_SIF{
+    padding-left:78px;
+}
+
+#mdp_SIF{
+    margin-top:6px;
+}
+
+

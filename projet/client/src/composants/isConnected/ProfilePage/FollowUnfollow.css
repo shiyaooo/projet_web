@@ -1,0 +1,15 @@
+#Follow_render{
+    margin-top: 1em;
+    margin-left: 1.5em;
+    border-radius: 10px;
+    height: 2em;
+    font-size: large;
+    background-color:rgb(164, 100, 224);
+    color: white;
+    cursor: pointer;
+}
+
+#Follow_render:hover{
+    transform: scale(1.2);
+    background-color: rgb(192, 148, 233) ;
+}

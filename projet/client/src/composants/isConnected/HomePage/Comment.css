@@ -1,0 +1,21 @@
+.top_comment{
+    display: grid;
+    grid-template-columns: 4.5em 20em 15em;
+}
+
+#nom_comment{
+    padding-top:7px;
+    color:rgb(48, 124, 54);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#time_comment{
+    font-size: smaller;
+    align-content:end
+}
+
+.bottom_comment{
+    margin-left:2em;
+    margin-right: 2em;
+    padding-bottom: 1em;
+}

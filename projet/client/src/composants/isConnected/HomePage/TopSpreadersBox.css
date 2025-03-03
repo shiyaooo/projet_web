@@ -1,0 +1,58 @@
+.render_YellowBox{
+    display: grid;
+    grid-template-rows: 1.4em;
+    margin-left:1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#facts{
+    margin-left:1.5em;
+    color:blueviolet
+}
+
+#number{
+    font-size: larger;
+    color: rgb(196, 117, 14);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topthree{
+    display:grid;
+    grid-template-rows: 2.3em;
+}
+
+.infotopSpreaders{
+    display: grid;
+    grid-template-rows: 2em;
+    grid-template-columns: 5em 6em;
+}
+
+#next_nbr{
+    padding-top:3px;
+}
+
+#eachTopuser{
+    color: rgb(231, 102, 15);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#number_followers{
+    padding-top:10px;
+    padding-left:13px;
+    font-size:13px;
+}
+
+#topspreadersflag{
+    margin-left: 0.7em;
+    color: green;
+}
+
+.statsYellowBox{
+    margin-top:0.6em;
+    display: grid;
+    grid-template-columns: 2em 5em;
+    grid-template-rows: 2em;
+    margin-left: 1.5em;
+}

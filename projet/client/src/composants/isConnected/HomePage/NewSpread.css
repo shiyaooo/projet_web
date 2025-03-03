@@ -1,0 +1,68 @@
+#textareaposting{
+    background-color: blanchedalmond;
+    margin-left: 1em;
+    padding-left: 1em;
+    width: 35em;
+    height: 7em;
+    font-size: large;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px rgba(78, 10, 10, 0.2);
+    color: rgb(12, 11, 11);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#selected-image{
+    max-width : 250px;
+    max-height: 250px;
+}
+#textareaposting::placeholder{
+    color:rgb(202, 133, 64);
+}
+
+.down-NewSpread{
+    display: grid;
+    grid-template-columns: 20em 10em 10em;
+}
+
+#buttonposting{
+    height: 3.3em;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    background-color: rgba(241, 241, 116, 0.966);
+    margin-left: 3em;
+    width: 10em;
+}
+
+#buttonposting:hover{
+    transform: scale(0.9);
+    background-color: antiquewhite;
+}
+
+#upload_NewSpread{
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+
+.imageloaded_NS{
+    display: grid;
+    grid-template-columns: 10em 2em;
+}
+
+#buttonforPic:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#PicUploadIcone{
+    height: 2.3em;
+    margin-left: 3em;
+    cursor: pointer;
+}
+
+#PicUploadIcone:hover{
+    transform: scale(0.9);
+    box-shadow:0 3px 5px rgb(141, 141, 136);
+}

@@ -1,0 +1,8 @@
+dysm1869
+930C4QKucWFjGIS0
+
+compass
+mongodb+srv://dysm1869:930C4QKucWFjGIS0@spreaddb.hifji.mongodb.net/
+
+nodejs
+mongodb+srv://dysm1869:930C4QKucWFjGIS0@spreaddb.hifji.mongodb.net/?retryWrites=true&w=majority&appName=spreaddb

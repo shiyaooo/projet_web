@@ -1,0 +1,23 @@
+/* .render_like{
+    display: grid;
+    grid-template-columns: 4em 4em;
+} */
+
+#like_button{
+    padding-top: 3px;
+    height: 2.3em;
+    cursor: pointer;
+}
+
+.behind_Like{
+    display: grid;
+    grid-template-columns: 2.5em 2em;
+    background-color: transparent;
+    border: transparent;
+    width: 6em;
+}
+
+#like_button:hover{
+    transform: scale(1.15);
+}
+

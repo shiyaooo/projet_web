@@ -1,0 +1,23 @@
+.navbar{
+   display: flex;
+   align-items: center;
+   background-color: antiquewhite;
+   height: 50px;
+   padding: 10px;
+   justify-content: space-between;
+   color:rgb(54, 43, 50);
+
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+}
+
+.nom_user{
+    margin-top: 15px;
+}

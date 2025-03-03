@@ -1,0 +1,73 @@
+.render_spread{
+    /* height: 10em; */
+    background-color: rgba(240, 255, 255, 0.795);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.userID_spread{
+    display:grid;
+    grid-template-columns: 4.5em 24em 10em;
+}
+
+#nom_spread{
+    padding-top:7px;
+    color:rgb(109, 48, 124);
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#time_spread{
+    font-size: smaller;
+    align-content:end
+}
+
+.contenu_spread{
+    padding-top:1em;
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+.options_spread{
+    display:grid;
+    grid-template-columns: 15em 17em 5em;
+    align-items: center;
+    width: 45em;
+    margin-top:0.5em;
+    margin-left:2em;
+}
+
+.backcomm_spread, .backreply_spread{
+    height: 3em;
+    background-color: transparent;
+    border: transparent;
+}
+
+#buttonComments_spread{
+    padding-top:12px;
+    height: 2.3em;
+    cursor: pointer;
+    
+}
+
+#buttonReply_spread{
+    height: 2.3em;
+    cursor: pointer;
+    
+}
+
+#buttonComments_spread:hover, #buttonReply_spread:hover{
+    transform: scale(1.1);
+}
+
+.comments_spread{
+    display: grid;
+    grid-template-columns: 3em 3em;
+}
+
+#imageInPost{
+    margin-left: 10em;
+    max-width : 300px;
+    max-height: 300px;
+}

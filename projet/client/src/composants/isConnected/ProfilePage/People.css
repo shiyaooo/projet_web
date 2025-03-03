@@ -1,0 +1,56 @@
+.render_people{
+    margin-top: 1em;
+    background-color: rgba(203, 248, 182, 0.644);
+    border-radius: 10px;
+    box-shadow:  0 2px 4px rgba(0,1,1,0.6);
+    display: grid;
+    grid-template-columns: 7em 15em 7em 5em;
+}
+
+.render_people:first-child{
+    padding-left: 1em;
+    padding-top: 0.6em;
+}
+
+.PseudoETbio_people{
+    width: 15em;
+}
+
+.pseudo_people{
+    display: grid;
+    grid-template-columns: 6em 6em;
+    height: 2em;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pseudo_people:first-child{
+    color: green;
+}
+
+#friends_people_nexttoPseudo{
+    color:brown;
+}
+
+#ME_people{
+    color:rgb(206, 11, 11);
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#HeFollowsMe_people{
+    color:grey;
+}
+
+.stats_people{
+    padding-left: 0.5em;
+    display: grid;
+    grid-template-rows: 2em;
+    color: rgb(129, 18, 55);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#firstStat::first-letter, #secondStat::first-letter{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

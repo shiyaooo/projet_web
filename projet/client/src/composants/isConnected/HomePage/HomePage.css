@@ -1,0 +1,19 @@
+
+.TopSpreaders_HP{
+    margin-top: 4em;
+    background-color: rgb(247, 228, 61);
+    border-radius: 5%;
+    height: 19em;
+    box-shadow: 0 2px 4px rgba(0,1,1,0.6);
+    /* position: sitcky; */
+}
+
+.spread_HP{
+    padding-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.down_HP{
+    display: grid;
+    grid-template-columns: 43em 12em;
+}

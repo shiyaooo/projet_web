@@ -1,0 +1,60 @@
+.message{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+
+.messageInfo{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-weight: 300;
+}
+
+#date_msg{
+    font-size: 12px;
+}
+
+#destuser{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.messageContent{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+    max-width: 400px;
+
+}
+
+.content{
+    background-color: rgb(221, 228, 235);
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 10px ;
+
+}
+
+#srcuser{
+    width: 50%;
+    
+}
+
+.message.owner{
+    flex-direction: row-reverse;    
+    .content{
+        background-color: grey;
+        color:white;
+        border-radius: 10px 0px 10px 10px ;
+
+    };
+
+    .messageContent{
+        align-items: flex-end;
+    }
+
+}
+

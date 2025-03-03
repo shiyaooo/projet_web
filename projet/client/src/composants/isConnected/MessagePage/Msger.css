@@ -1,0 +1,26 @@
+/*.ami_cherche{
+    float:left;
+    width:100%;
+    display: flex;
+    border-top-color: transparent;
+}*/
+
+.ami_cherche{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;      
+}
+
+.ami_cherche:hover{
+    background-color: rgba(226, 223, 223, 0.822);
+}
+
+
+#img_fr{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
