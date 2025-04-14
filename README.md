@@ -7,5 +7,8 @@ Cette plateforme permet aux utilisateurs de publier, liker, commenter des posts,
 Liaisons arborescentes entre les composants
 ![Illustration](projet/client/src/composants/Icones/liasison_front.png)
 
+- SignInForm
+<img src="projet/client/src/composants/Icones/liasison_front.png" alt="Illustration" width="400"/>
+
 ## back-end
 
