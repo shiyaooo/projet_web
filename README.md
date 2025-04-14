@@ -28,3 +28,9 @@ Liaisons arborescentes entre les composants
 
 ## back-end
 
+Relations d’appel entre les fichiers côté serveur
+
+<img src="projet/client/src/composants/Icones/liaison_back.png" alt="Illustration" width="400"/>
+
+
+
