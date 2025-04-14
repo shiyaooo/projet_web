@@ -11,5 +11,20 @@ Liaisons arborescentes entre les composants
 - SignInForm
 <img src="projet/client/src/composants/Icones/page_connection.jpg" alt="Illustration" width="400"/>
 
+- SinUpForm
+<img src="projet/client/src/composants/Icones/page_inscription.jpg" alt="Illustration" width="400"/>
+
+- Home Page
+<img src="projet/client/src/composants/Icones/home_page.png" alt="Illustration" width="400"/>
+<img src="projet/client/src/composants/Icones/page_accueil.jpg" alt="Illustration" width="400"/>
+
+- Profile Page
+<img src="projet/client/src/composants/Icones/profil_page.png" alt="Illustration" width="400"/>
+<img src="projet/client/src/composants/Icones/page_profile.jpg" alt="Illustration" width="400"/>
+
+- Message Page
+<img src="projet/client/src/composants/Icones/message_page.png" alt="Illustration" width="400"/>
+<img src="projet/client/src/composants/Icones/page_mesage.jpg" alt="Illustration" width="400"/>
+
 ## back-end
 
